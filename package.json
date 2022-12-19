@@ -1,0 +1,23 @@
+{
+  "name": "test-project-play-wright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test create-tasks.spec.ts && npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NDPPhap/test-project-play-wright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NDPPhap/test-project-play-wright/issues"
+  },
+  "homepage": "https://github.com/NDPPhap/test-project-play-wright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.0"
+  }
+}
